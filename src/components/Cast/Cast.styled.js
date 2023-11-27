@@ -1,16 +1,17 @@
 import styled from 'styled-components';
 
 export const CastList = styled.ul`
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    margin: 0.1rem 0;
-    > li {
-        /* display: flex; */
-        font-size: small;
-        /* background-color: rgba(0, 0, 0, 0.05); */
-        padding: 0.5rem;
-    }
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0.1rem 0;
+
+  > li {
+    /* display: flex; */
+    font-size: small;
+    /* background-color: rgba(0, 0, 0, 0.05); */
+    padding: 0.5rem;
+  }
 `;
 
 export const CastText = styled.p`
@@ -22,7 +23,6 @@ export const CastText = styled.p`
     margin-right: 0.2rem;
   }
 `;
-
 export const MovieAddInfo = styled.div`
   padding: 1rem 0.2rem;
   border-bottom: 0.2rem solid rgba(0, 0, 0, 0.3);
